@@ -1,0 +1,19 @@
+[project]
+name = "llm-realms"
+version = "0.1.0"
+description = "RPG Telegram bot with Ollama/OpenRouter support"
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.10"
+readme = "README.md"
+
+dependencies = [
+  "requests>=2.31.0",
+  "python-telegram-bot>=21.0.0"
+]
+
+[project.scripts]
+llmrealms = "main:main"
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
+
